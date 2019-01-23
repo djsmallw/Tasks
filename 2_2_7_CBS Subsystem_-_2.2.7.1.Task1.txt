@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1'  
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' Locked NO  
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' Priority 1  
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' Description '[CBS_Subsytem.proc] CBS Checkout'  
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' DurationIsVariableAllowed True DurationMinTotal 250 DurationMaxTotal 750
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' ResourceFormula YES '"2Transit" AND "S-Lo"' 
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' Dependencies 0 1 1 '2_2_6_Robot Subsystem_-_2_2_6_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: Seperation
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

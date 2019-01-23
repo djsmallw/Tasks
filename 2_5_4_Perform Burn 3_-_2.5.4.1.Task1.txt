@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1'  
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' Locked NO  
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' Priority 1  
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' Description '[Perform_Burn3.proc] Perform maneuver to align with Landsat 7'  
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' DurationIsVariableAllowed True DurationMinTotal 600 DurationMaxTotal 1400
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' ResourceFormula YES '"2Transit" AND "S-Lo"' 
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' Dependencies 0 1 1 '2_5_3_Perform Burn 2_-_2_5_3_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '2_5_4_Perform Burn 3_-_2_5_4_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: PCM
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

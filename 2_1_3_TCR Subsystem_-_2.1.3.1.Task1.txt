@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1'  
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' Locked NO  
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' Priority 1  
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' Description '[TCR_Checkout.proc] In-Orbit Tier-3 Tests: KA band data Transmitter 1 KA band data Transmitter 2 Wide Angle (Omni) Coverage Pattern Secure Mode'  
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' DurationIsVariableAllowed True DurationMinTotal 500 DurationMaxTotal 1500
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' ResourceFormula YES '"2Transit" AND "Ka" AND "Umbra"' 
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' Dependencies 0 1 1 '2_1_2_Attitude Control Subsystem_-_2_1_2_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: Seperation
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1'  
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Locked NO  
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Priority 1  
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Description '[Post_Set_Initial_Acquisition.proc] Post separation sequence: SC needs to autonomously bring Tx/Rx into a configuration to close link SSL heritage is to do this autonomously by the sep sequence. Verify TLM Acquisition/Establish comm link; Both Transceivers on Default Transceiver RF on. Rx at 2 kbps Tx at 8 kbps TDRSS mode Receiver Lock status can be seen in the TLM (if CMD uplink established can be seen through  the Rx lock status)'  
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' DurationIsVariableAllowed True DurationMinTotal 330 DurationMaxTotal 870
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Dependencies 0 1 1 '1_3_1_Separate from LV_-_1_3_1_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: PCM
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

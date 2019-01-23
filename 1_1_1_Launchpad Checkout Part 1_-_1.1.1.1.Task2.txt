@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2'  
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Locked NO  
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Priority 1  
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Description '[Launch_Checkout_Part1_Task2.proc] Configure RSV for launch at T- 10 hours: Both transceivers on Rx and Tx on Omnis. Both omnis are ON. RF off on both transceiver. Does Payload need a check? P/L Survival Heaters are activated'  
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' RecurringType SingleInstance
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' DurationIsVariableAllowed True DurationMinTotal 400 DurationMaxTotal 600
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' ResourceFormula YES '"1Launch" AND "Ka"' 
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Dependencies 0 1 1 '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Notes 'Additional Notes: 
+/RSV Mode: OOSTGySafe
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

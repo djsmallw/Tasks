@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1'  
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' Locked NO  
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' Priority 1  
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' Description '[Launch_Checkout_Part2_Task1.proc] At  T-7 hrs: Upload stored (time tagged) commands '  
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' DurationIsVariableAllowed True DurationMinTotal 200 DurationMaxTotal 800
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' ResourceFormula YES '"1Launch" AND "Ka"' 
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' Dependencies 0 1 1 '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: PCM
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

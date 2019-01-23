@@ -1,0 +1,27 @@
+SCHED / SetScheduleOptions ExpandEnabled True 
+
+SCHED / SetScheduleOptions ExpandAssignmentsFirst True 
+
+SCHED / NewTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1'  
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' Locked NO  
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' Priority 1  
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' Description '[Calculate_Maneuvers.proc] Calculate maneuvers to align with Landsat 7'  
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' DurationIsVariableAllowed True DurationMinTotal 750 DurationMaxTotal 1250
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' ResourceFormula YES '"2Transit" AND "S-Lo" AND "Umbra"' 
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' Dependencies 0 1 1 '2_4_1_Landsat 7 New Orbit_-_2_4_1_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '2_5_1_Calculate Maneuvers_-_2_5_1__1_Task1' Notes 'Additional Notes: 
+/RSV Mode: SKSTGyTransition
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
