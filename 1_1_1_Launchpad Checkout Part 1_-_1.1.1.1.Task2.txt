@@ -12,7 +12,7 @@ SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' Description '
 
 SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' RecurringType SingleInstance
 
-SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' DurationIsVariableAllowed True DurationMinTotal 400 DurationMaxTotal 600
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' DurationIsVariableAllowed True DurationMinTotal 300 DurationMaxTotal 600
 
 SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task2' DurationIsMultipleSegmentsAllowed False
 
