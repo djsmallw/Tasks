@@ -14,14 +14,3 @@ SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' RecurringType Si
 
 SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' DurationIsVariableAllowed True DurationMinTotal 320 DurationMaxTotal 880
 
-SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' ResourceFormula YES '"1Launch" AND "Ka" AND "Umbra"' 
-
-SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Dependencies 0 1 1 '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: SKSTGy
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

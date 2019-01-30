@@ -14,14 +14,3 @@ SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Rec
 
 SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' DurationIsVariableAllowed True DurationMinTotal 330 DurationMaxTotal 870
 
-SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
-
-SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Dependencies 0 1 1 '1_3_1_Separate from LV_-_1_3_1_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: PCM
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

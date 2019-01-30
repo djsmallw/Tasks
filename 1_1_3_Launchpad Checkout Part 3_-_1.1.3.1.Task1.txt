@@ -9,19 +9,3 @@ SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' Locked NO
 SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' Priority 1  
 
 SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' Description '[Launch_Checkout_Part3_Task1.proc] Verify TLM health and status at T- 5 hours: Both transceivers on.  Rx and Tx on Omnis. Both omnis are ON. RF off on both transceiver. Output power OFF before launch. RSV in launch config including start TLM storage about 5 hrs before launch Does Payload need a check?'  
-
-SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' DurationIsVariableAllowed True DurationMinTotal 350 DurationMaxTotal 850
-
-SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
-
-SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' Dependencies 0 1 1 '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: QEA Safe
-/Require Special SRA?: No
-/Sensor Config: nan' 
-
