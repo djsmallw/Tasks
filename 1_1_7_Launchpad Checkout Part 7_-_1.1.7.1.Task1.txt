@@ -8,4 +8,20 @@ SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Locked NO
 
 SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Priority 1  
 
-SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Description '[Launch_Checkout_Part7_Task1.proc] Launch Go/No-Go Readiness poll at T- 15 min: Both
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Description '[Launch_Checkout_Part7_Task1.proc] Launch Go/No-Go Readiness poll at T- 15 min: Both transceivers on.  Rx and Tx on Omnis. RF off on both transceiver. Both omnis are ON. Output power OFF before launch. Payload OFF'  
+
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' DurationIsVariableAllowed True DurationMinTotal 450 DurationMaxTotal 850
+
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo" AND "Umbra"' 
+
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Dependencies 0 1 1 '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: QEA Safe
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

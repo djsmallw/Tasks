@@ -11,4 +11,17 @@ SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' Priority 1
 SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' Description '[Refuel_Checkout.proc] In-Orbit Tier-3 Tests: Latch Valves Pressure Transducers'  
 
 SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' RecurringType SingleInstance
-ad
+
+SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' DurationIsVariableAllowed True DurationMinTotal 800 DurationMaxTotal 1200
+
+SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' ResourceFormula YES '"2Transit" AND "Ka"' 
+
+SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' Dependencies 0 1 1 '2_1_3_TCR Subsystem_-_2_1_3_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '2_1_4_Refueling Subsystem_-_2_1_4_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: Seperation
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

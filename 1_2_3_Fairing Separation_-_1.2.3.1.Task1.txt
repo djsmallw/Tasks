@@ -10,3 +10,18 @@ SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' Priority 1
 
 SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' Description '[Ascent_2.proc] Launch'  
 
+SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' DurationIsVariableAllowed True DurationMinTotal 320 DurationMaxTotal 880
+
+SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
+
+SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' Dependencies 0 1 1 '1_2_2 Ascent to Leo Altitude_-_1_2_2_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_2_3_Fairing Separation_-_1_2_3_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: Seperation
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

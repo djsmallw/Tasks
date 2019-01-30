@@ -9,3 +9,19 @@ SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' Locked NO
 SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' Priority 1  
 
 SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' Description '[Launch_Checkout_Part2_Task2.proc] At  T-7 hrs: Upload stored (time tagged) commands '  
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' RecurringType SingleInstance
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' DurationIsVariableAllowed True DurationMinTotal 220 DurationMaxTotal 380
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' ResourceFormula YES '"1Launch" AND "Ka"' 
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' Dependencies 0 1 1 '1_1_2_Launchpad Checkout Part 2_-_1_1_2_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_1_2_Launchpad Checkout Part 2_-_1_1_2_2_Task2' Notes 'Additional Notes: 
+/RSV Mode: OOSTGyHigh
+/Require Special SRA?: No
+/Sensor Config: nan' 
+

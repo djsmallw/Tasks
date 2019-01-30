@@ -12,4 +12,16 @@ SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Description '[D
 
 SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' RecurringType SingleInstance
 
+SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 2500 DurationMaxTotal 3500
+
+SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' ResourceFormula YES '"2Transit" AND "S-Lo"' 
+
+SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Dependencies 0 1 1 '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: OOSTGyHigh
+/Require Special SRA?: No
+/Sensor Config: nan' 
 
