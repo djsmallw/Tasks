@@ -8,20 +8,3 @@ SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' Locked NO
 
 SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' Priority 1  
 
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' Description '[Thermal_Checkout.proc] In-Orbit Tier-3 Tests: Main Bus Heaters Payload heaters Low Voltage Heaters Battery Heaters'  
-
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' DurationIsVariableAllowed True DurationMinTotal 350 DurationMaxTotal 650
-
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' ResourceFormula YES '"2Transit" AND "S-Lo"' 
-
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' Dependencies 0 1 1 '2_1_5_Electrical Power Subsystem_-_2_1_5_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '2_1_6_Thermal Subsystem_-_2_1_6_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: SKSTGyTransition
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

@@ -8,20 +8,3 @@ SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' Locked NO
 
 SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' Priority 1  
 
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' Description '[Vision_Subsystem.proc]  "Vision System Activation and Checkout: Disengage Pan/Tilt Unit (PTU) launch locks Disengage ATDS CPM camera launch locks Enable situational awareness cameras   Perform Vision System DTT and CFT Perform S/A camera DTT and CFT Checkout lights Checkout Pan/Tilt Units Checkout Ka through VDSU Leave all cameras powered"'  
-
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' DurationIsVariableAllowed True DurationMinTotal 400 DurationMaxTotal 800
-
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' ResourceFormula YES '"2Transit" AND "Ka" AND "Umbra"' 
-
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' Dependencies 0 1 1 '2_2_3_VDSU_-_2_2_3_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '2_2_4_Vision Subsystem_-_2_2_4_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: PCM
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

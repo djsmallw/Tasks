@@ -10,18 +10,3 @@ SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' Priority 1
 
 SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' Description '[Avionics_Subsystem.proc] PL Avionics Activation and Checkout'  
 
-SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 350 DurationMaxTotal 450
-
-SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' ResourceFormula YES '"2Transit" AND "Ka"' 
-
-SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' Dependencies 0 1 1 '2_1_8_Release Launch Locks_-_2_1_8_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '2_2_1_Avionics Subsystem_-_2_2_1_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: OOSTGySafe
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

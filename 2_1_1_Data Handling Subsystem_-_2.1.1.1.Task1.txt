@@ -10,18 +10,3 @@ SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Priority 1
 
 SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Description '[DHS_Checkout.proc] In-Orbit Tier-3 Tests: Processor (BA/GSP 1) Processor (BA/GSP 2) Mission Processor Primary Mission Processor Standby 1553 Bus (BA 1) 1553 Bus (BA 2) Routers/Serial Interface Adapter Verification Dec/Enc/CCL M-Bus (M-Bus Channel A device) Checkout CCL MDL Verification'  
 
-SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 2500 DurationMaxTotal 3500
-
-SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' ResourceFormula YES '"2Transit" AND "S-Lo"' 
-
-SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Dependencies 0 1 1 '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '2_1_1_Data Handling Subsystem_-_2_1_1_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: OOSTGyHigh
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

@@ -8,20 +8,3 @@ SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Locked NO
 
 SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Priority 1  
 
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Description '[Deploy_HGA.proc] RSV to commissioning orbit. Execute post-separation sequence.'  
-
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 450 DurationMaxTotal 750
-
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
-
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Dependencies 0 1 1 '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '1_4_1_Deploy SA and HGA_-_1_4_1_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: OOSTGySafe
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

@@ -7,21 +7,3 @@ SCHED / NewTask '1_3_1_Separate from LV_-_1_3_1_1_Task1'
 SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' Locked NO  
 
 SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' Priority 1  
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' Description '[Sep_LV.proc] Separate from LV in the commissioning orbit. Execute post-separation sequence. 20 km below the servicing alt -697km T&C system will be configured autonomously by the separation sequence (TLM Tx to 20 W TDRS mode); Both Transceivers on Default Transceiver RF on. Rx at 2 kbps Tx at 8 kbps TDRSS mode. Receiver Lock status can be seen in the TLM (if CMD uplink established can be seen through  the Rx lock status) Separation event (opening either one of two loopback circuits in LV) triggers a sequence.  Traditionally sequence starts 5 minutes after separation (to avoid radiating LV with high power RF).  This may be tailored for the LV used however it must be finalized before last flight software build & final performance test. RSV spinning (+X??); Is the RSV rotating at this point? If so about what axis and at what rate?  Any update on separation attitude spin vector from 9/5/17 package (+X parallel equatorial plan & orthogonal to Sun vector)? ; Activate ACS System; Payload OFF'  
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 450 DurationMaxTotal 750
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' Dependencies 0 1 1 '1_2_4_Pre Separation from LV_-_1_2_4_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '1_3_1_Separate from LV_-_1_3_1_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: OOSTGySafe
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

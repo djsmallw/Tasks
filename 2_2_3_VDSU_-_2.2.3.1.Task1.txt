@@ -12,16 +12,3 @@ SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' Description '[VDSU.proc] VDSU Acti
 
 SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' RecurringType SingleInstance
 
-SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' DurationIsVariableAllowed True DurationMinTotal 250 DurationMaxTotal 750
-
-SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' ResourceFormula YES '"2Transit" AND "Ka"' 
-
-SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' Dependencies 0 1 1 '2_2_2_GEONS_-_2_2_2_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '2_2_3_VDSU_-_2_2_3_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: QEA
-/Require Special SRA?: No
-/Sensor Config: nan' 
-

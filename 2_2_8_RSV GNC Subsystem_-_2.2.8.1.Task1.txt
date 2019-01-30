@@ -9,19 +9,3 @@ SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' Locked NO
 SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' Priority 1  
 
 SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' Description '[RSV_GNC_Subsystem.proc] RSV GNC Checkout'  
-
-SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' RecurringType SingleInstance
-
-SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' DurationIsVariableAllowed True DurationMinTotal 400 DurationMaxTotal 600
-
-SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' DurationIsMultipleSegmentsAllowed False
-
-SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' ResourceFormula YES '"2Transit" AND "Ka"' 
-
-SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' Dependencies 0 1 1 '2_2_7_CBS Subsystem_-_2_2_7_1_Task1' Pred afterStop 0 afterStop NA 
-
-SCHED / EditTask '2_2_8_RSV GNC Subsystem_-_2_2_8_1_Task1' Notes 'Additional Notes: 
-/RSV Mode: OOSTGyHigh
-/Require Special SRA?: No
-/Sensor Config: nan' 
-
