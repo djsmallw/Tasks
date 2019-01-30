@@ -9,3 +9,4 @@ SCHED / EditTask '2_1_2_Attitude Control Subsystem_-_2_1_2_1_Task1' Locked NO
 SCHED / EditTask '2_1_2_Attitude Control Subsystem_-_2_1_2_1_Task1' Priority 1  
 
 SCHED / EditTask '2_1_2_Attitude Control Subsystem_-_2_1_2_1_Task1' Description '[ACS_Checkout.proc] In-Orbit Tier-3 Tests: Attitude Control Electronics (ACE-1) (Control HGA) Attitude Control Electronics (ACE-2) (Control HGA) Attitude Control Electronics (ACE-3) Attitude Control Electronics (ACE-4) 1553 Sensor Bus Mission Processor 1/2 MBUS GPSR 1 Health GPSR 1 Performance Gyro Calibration FOG 1 Health FOG 2 Health ECASS 1 Health ECASS 2 Health Accelerometer 1 Health Accelerometer 2 Health RW 1 234 Health RW Spin Polarity (1-4) Star Tracker 1 Health Star Tracker 2 Health ST 1 and ST 2 Comparison'  
+ad

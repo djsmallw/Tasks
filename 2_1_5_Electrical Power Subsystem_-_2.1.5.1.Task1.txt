@@ -10,4 +10,4 @@ SCHED / EditTask '2_1_5_Electrical Power Subsystem_-_2_1_5_1_Task1' Priority 1
 
 SCHED / EditTask '2_1_5_Electrical Power Subsystem_-_2_1_5_1_Task1' Description '[EPS_Checkout.proc] In-Orbit Tier-3 Tests: Solar Array Power On Orbit SBT (Smart Battery Tray) Charge Converters Verification Voltage Regulation Battery Power Voltage Regulation Solar Array Power Battery Performance On Orbit Eclipse HVSU (High Voltage Switch Unit) Shunt Strings PCU Health SBT (Smart Battery Tray) Health'  
 
-SCHED / EditTask '2_1_5_Electrical Power Subsystem_-_2_1_5_1_Task1' RecurringType SingleInstance
+SCHED / EditTasdak '2_1_5_Electrical Power Subsystem_-_2_1_5_1_Task1' RecurringType SingleInstance
