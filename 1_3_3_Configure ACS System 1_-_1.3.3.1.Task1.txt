@@ -8,4 +8,21 @@ SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Locked NO
 
 SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Priority 1  
 
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Description '[Configure_ACS_System_1.proc] Attitude Control Subsystem (ACS) - Tier-1 Tests: Attitude Control Electronics (ACE-2) (Control HGA) Attitude Control Electronics (ACE-4) 1553 Sensor Bus ACE 1/2/3/4 M-BUS Control Mode Quaternion Earth Acquisition Mode (QEA)'  
 
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' DurationIsVariableAllowed True DurationMinTotal 320 DurationMaxTotal 880
+
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' ResourceFormula YES '"1Launch" AND "Ka" AND "Umbra"' 
+
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Dependencies 0 1 1 '1_3_2_Post Separation Initial Acquisition_-_1_3_2_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: SKSTGy
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
+# Timestamp: 1549563699.0780869

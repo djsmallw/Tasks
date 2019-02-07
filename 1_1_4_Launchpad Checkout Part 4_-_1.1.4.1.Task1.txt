@@ -10,3 +10,19 @@ SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' Priority 1
 
 SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' Description '[Launch_Checkout_Part4_Task1.proc] At T- 3.5 hours: Go for launch & Internal Power Check '  
 
+SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' DurationIsVariableAllowed True DurationMinTotal 300 DurationMaxTotal 600
+
+SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
+
+SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' Dependencies 0 1 1 '1_1_3_Launchpad Checkout Part 3_-_1_1_3_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_1_4_Launchpad Checkout Part 4_-_1_1_4_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: Seperation
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
+# Timestamp: 1549563699.070579

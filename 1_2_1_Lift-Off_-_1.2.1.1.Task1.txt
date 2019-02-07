@@ -14,4 +14,15 @@ SCHED / EditTask '1_2_1_Lift-Off_-_1_2_1_1_Task1' RecurringType SingleInstance
 
 SCHED / EditTask '1_2_1_Lift-Off_-_1_2_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 800 DurationMaxTotal 1200
 
-SCHED / Edit
+SCHED / EditTask '1_2_1_Lift-Off_-_1_2_1_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_2_1_Lift-Off_-_1_2_1_1_Task1' ResourceFormula YES '"1Launch" AND "Ka" AND "Umbra"' 
+
+SCHED / EditTask '1_2_1_Lift-Off_-_1_2_1_1_Task1' Dependencies 0 1 1 '1_1_7_Launchpad Checkout Part 7_-_1_1_7_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_2_1_Lift-Off_-_1_2_1_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: OOSTGyHigh
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
+# Timestamp: 1549563699.07372

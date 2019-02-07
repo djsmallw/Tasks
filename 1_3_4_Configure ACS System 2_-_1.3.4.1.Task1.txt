@@ -10,3 +10,19 @@ SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' Priority 1
 
 SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' Description '[Configure_ACS_System_2.proc] Attitude Control Subsystem (ACS) - Tier-2 Tests: GPSR 2 Health GPSR 2 Performance'  
 
+SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' RecurringType SingleInstance
+
+SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' DurationIsVariableAllowed True DurationMinTotal 500 DurationMaxTotal 700
+
+SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' ResourceFormula YES '"1Launch" AND "Ka"' 
+
+SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' Dependencies 0 1 1 '1_3_3_Configure ACS System 1_-_1_3_3_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_3_4_Configure ACS System 2_-_1_3_4_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: SKSTGyTransition
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
+# Timestamp: 1549563699.078729

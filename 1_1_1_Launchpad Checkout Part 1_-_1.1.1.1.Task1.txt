@@ -12,3 +12,15 @@ SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' Description '
 
 SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' RecurringType SingleInstance
 
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' DurationIsVariableAllowed True DurationMinTotal 250 DurationMaxTotal 700
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' ResourceFormula YES '"1Launch" AND "Ka"' 
+
+SCHED / EditTask '1_1_1_Launchpad Checkout Part 1_-_1_1_1_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: OOSTGyHigh
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
+# Timestamp: 1549563699.0465019

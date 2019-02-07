@@ -12,4 +12,17 @@ SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' Description '
 
 SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' RecurringType SingleInstance
 
-SC
+SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' DurationIsVariableAllowed True DurationMinTotal 260 DurationMaxTotal 740
+
+SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' DurationIsMultipleSegmentsAllowed False
+
+SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' ResourceFormula YES '"1Launch" AND "S-Lo"' 
+
+SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' Dependencies 0 1 1 '1_1_5_Launchpad Checkout Part 5_-_1_1_5_1_Task1' Pred afterStop 0 afterStop NA 
+
+SCHED / EditTask '1_1_6_Launchpad Checkout Part 6_-_1_1_6_1_Task1' Notes 'Additional Notes: 
+/RSV Mode: QEA Safe
+/Require Special SRA?: No
+/Sensor Config: nan' 
+
+# Timestamp: 1549563699.072324
